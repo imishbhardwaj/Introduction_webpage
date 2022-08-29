@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="author" content="Nisha Bhardwaj">
+        <meta name="description" content="This is my learning website.">
+        <title>my first web page</title>
+        <link rel="icon" type="image/x-icon" href="ht.png" >
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <style>
+            html{
+                font-size: 22px;
+            }
+            body{
+                background-color: #333;
+                color: whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>Hello World!</h1>
+        <aside>
+            <details><summary>Click Here</summary>
+            <img src="bold.jpg" alt="motivation" height="400" width="400"></details>
+        </aside>
+        <!-- <hr> -->
+        <nav>
+            <ul><li>
+                <a href="#CodeSpace">Hey coders</a>
+            </li>
+        <li><a href="#Routine">My routine</a></li>
+    <li><a href="#Contact">Contact Me</a></li></ul>
+        </nav>
+        <hr>
+</header>
+        <main>
+        <section id="CodeSpace">
+        <h2>lets connect</h2>
+        <p>this is <em>my website</em>.</p>
+        <hr>
+
+        <h3>coding lanuages i know</h3>
+        <p>they are:</p>
+        <img src="ht.png" alt="Html logo" height="300" width="300">
+        <ol>
+            <li>c</li>
+            <li>c++</li>
+            <li>java</li>
+        </ol>
+        </section>
+
+        <section id="Routine">
+        <h3>i will share my daily routine:</h3>
+        <ul>
+        <li><p>eating <strong>healthy food</strong></p></li>
+        <li><p>i like reading and <abbr title="Research and development"><a href="https://www.researchgate.net/">R&D</a></abbr>.</p></li>
+        <li><p>i wanna achieve big</p></li>
+        <table>
+            <caption>My Routine</caption>
+            <thead>
+            <tr>
+                <th>Time</th>
+                <th colspan="2">Routine</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Morning</th>
+                <td datetime="9:00">9am</td>
+                <td>start studying</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td datetime="12:00">12pm</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <th>Mid Afternoon</th>
+                <td datetime="1:00">1pm</td>
+                <td>studying</td>
+            </tr>
+            <tr>
+                <th>Night</th>
+                <td rowspan="2"> All other time</td>
+                <td rowspan="2"">Sleep</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">EAT,SLEEP,CODE REPEAT....</td>
+                </tr>
+            </tfoot>
+        </table>
+        </section>
+        <!-- add more places -->
+        <h3>My Adventures</h3>
+       <img src="adv.jpg" alt="Adventures" >
+        <dl>
+            <dt>Trekking </dt>
+            <dd>Baronda devi trail</dd>
+
+            <dt>Beach</dt>
+            <dd>Juhu Beach</dd>
+        </dl>
+        <hr>
+        <article id="Contact">
+        <h2>Contact Me</h2>
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>PersonalInfo</legend>
+            <p>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" autocomplete="on" required autofocus></p>
+            <p>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" autocomplete="on" required ></p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password"  required>
+            </p>
+            <p>
+                <label for="phone">Phone No:</label>
+                <input type="phone" name="phone" id="phone"  required>
+            </p>
+            <p>
+                <label for="dateofbirth">Date of Birth:</label>
+                <input type="date" name="dateofbirth" id="dateofbirth"  required>
+            </p>
+            <p>
+                <label for="coding">Favorite Language:</label>
+               <select name="codinglang" id="codinglang">
+                <option value="c">c</option>
+                <option value="c++">c++</option>
+                <option value="java">java</option>
+                <option value="python">python</option>
+               </select>
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend>Favorite food</legend>
+                <p>
+                    <input type="radio" name="food" id="Indian" value="Indian">
+                    <label for="Indian">Indian</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Chinese" value="Chinese">
+                    <label for="Chinese">Chinese</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Italian" value=Italian">
+                    <label for="Italian">Italian</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Mexican" value="Mexican">
+                    <label for="Mexican">Mexican</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Comment</legend>
+                <label for="message">Your messsage:</label><br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here">
+                </textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        </article>
+        </main>
+        <footer>
+        <br><address>Shivaji road,India</address>
+        </ul>
+        <hr>
+        <p>Link to my List</p>
+        <a href="pract.html">List</a><br>
+        &lt;&lt;&lt; &copy;Nisha Bhardwaj &gt;&gt;&gt;
+        </footer>
+    </body>
+</html>
